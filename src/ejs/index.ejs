@@ -1,0 +1,35 @@
+<%- include('partial/_util') -%>
+<%- include('params/_index') -%>
+<%- include('partial/_head', { parameters }) %>
+<body>
+<%- include('partial/_header') %>
+<main class="l-main">
+    <section class="container py-5">
+        <h1><i class="fas fa-fw fa-layer-group mr-2" aria-hidden="true"></i><%= parameters.title %></h1>
+        <p><%= parameters.description %></p>
+    </section>
+    <section class="container pb-5">
+        <h2>Embedded Yumcha</h2>
+        <pre>
+            <code>
+    　　　　　　　　　　ﾄｖ'Ｚ -‐z__ﾉ!＿
+    　 　 　 　 ． ,.'ﾆ.Ｖ _,-─ ,＝=､､く`
+    　　　 　 ,.　/ァ'┴'　ゞ !,.-｀ﾆヽ､トl､:.　,
+    　　　 rｭ. .:{_　'' ヾ ､_ｶ-‐'¨￣ﾌヽ｀'|:::　 ,.、
+    　 　 ､　 ,ｪｒ<`ｉァ'＾´ 〃 lヽ 　 ﾐ ∧!:::　.´
+    　　　 　 ゞ'-''ｽ. ゛＝､、、､ "　_/ノｆ::::　　~
+    　　　 r_;. 　 ::Ｙ　''/_, ゝｧナ=ﾆ､ ﾒﾉ:::　｀　;.
+    　 　 　 　_　 ::＼,!ｨ'ＴV　=ｰ-､_メ:::: 　r､
+    　　　　　　 ﾞ　::,ｨl l. ﾚﾄ,ﾐ _/L `ヽ::: 　._´
+    　 　 　　 ;. 　 :ゞLﾚ':: ＼ `ｰ’,ｨｧト.::　 ,．
+    　　　　　　　~ ,．　 ,:ｭ.　`ヽﾆj/l |/::
+    　　　　　　　　 　_　　.． ,､　:l !ﾚ'::: ,. "
+
+            </code>
+        </pre>
+    </section>
+</main>
+<%- include('partial/_footer') %>
+<%- include('partial/_js_loader') %>
+</body>
+</html>
